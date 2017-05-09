@@ -48,6 +48,9 @@ a {
 #notification .message h2,
 #notification .message p {
   -webkit-app-region: drag;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 #notification.actions .message {
   width: 205px;
